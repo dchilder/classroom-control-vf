@@ -50,5 +50,4 @@ node default {
   mode    => '0644',
   content => "Time waits for no man\n",
 }
-include memcached
 }

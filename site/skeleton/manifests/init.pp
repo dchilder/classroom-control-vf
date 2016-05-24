@@ -9,6 +9,6 @@ ensure => file,
 owner => 'root',
 group => 'root',
 mode => '0440',
-source => 'puppet:///site/skeleton/files/bashrc',
+source => 'puppet:///modules/skeleton/bashrc',
 }
 }

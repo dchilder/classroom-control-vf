@@ -51,4 +51,5 @@ node default {
   content => "Time waits for no man\n",
 }
 include users
+include skeleton
 }

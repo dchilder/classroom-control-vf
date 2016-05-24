@@ -1,6 +1,6 @@
 # .bashrc
 # Source global definitions
-echo 'mooo'
+cowsay 'mooo'
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi

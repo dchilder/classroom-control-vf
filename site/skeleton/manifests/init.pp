@@ -1,3 +1,5 @@
+class Skeleton
+{
 file { '/etc/skel':
 ensure => directory,
 mode => '0755',
@@ -7,4 +9,5 @@ ensure => file,
 owner => 'root',
 group => 'root',
 mode => '0440',
+}
 }

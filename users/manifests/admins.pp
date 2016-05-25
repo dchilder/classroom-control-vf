@@ -10,3 +10,4 @@ group { 'staff':
 ensure => present,
 }
 }
+

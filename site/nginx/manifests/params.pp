@@ -1,5 +1,5 @@
-class nginx::params {
-  case $::osfamily {
+class nginx::params{
+  case $::osfamily{
     'redhat','debian':{
       $package='nginx',
       $owner='root',

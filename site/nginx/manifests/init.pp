@@ -5,7 +5,7 @@ class nginx (
   $docroot=$nginx::params::docroot,
   $confdir=$nginx::params::configdir,
   $logdir=$nginx::params::logdir,
-  $user=$user::params::user,
+  $user=$nginx::params::user,
 ) inherits nginx::params {
 File {
 owner => $owner,

@@ -29,9 +29,9 @@ $user = $::osfamily ? {
 'windows' => 'nobody',
 }
 
-$docroot=$root ? {
-  undef => $default_docroot
-  default => $root
+$docroot=$root? {
+  undef => $default_docroot,
+  default => $root,
 }
 File {
 owner => $owner,

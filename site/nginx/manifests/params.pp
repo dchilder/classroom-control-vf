@@ -9,12 +9,12 @@ class nginx::params{
       $logdir='/var/log/nginx'
       }
     'windows':{
-      $package='nginx',
-      $owner='Administrator',
+      $package='nginx'
+      $owner='Administrator'
       $group='Administrators'
-      $docroot='c:/programdata/nginx/index.html',
-      $confdir='c:/programdata/nginx',
-      $logdir= 'c:/programdata/nginx/logs',
+      $docroot='c:/programdata/nginx/index.html'
+      $confdir='c:/programdata/nginx'
+      $logdir='c:/programdata/nginx/logs'
       }
     default:{
       fail("${module_name} is not supported on ${::osfamily} you big dummy")

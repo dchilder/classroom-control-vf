@@ -45,6 +45,7 @@ node default {
   #class {'nginx':
     #root=>'/var/www/html',
    # }
+   include nginx
   $message=hiera('message')
   notify{$message:}
   notify { "Hello, my name is ${::hostname}": }

@@ -14,7 +14,7 @@ class nginx::params{
       $group='Administrators'
       $docroot='c:/programdata/nginx/index.html',
       $confdir='c:/programdata/nginx',
-      $logdir= 'c:/progrramdata/nginx/logs',
+      $logdir= 'c:/programdata/nginx/logs',
       }
     default:{
       fail("${module_name} is not supported on ${::osfamily} you big dummy")
